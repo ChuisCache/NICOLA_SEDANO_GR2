@@ -1,0 +1,182 @@
+.white_text {
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 150px; /* Modifier la taille selon vos besoins */
+}
+
+.nav-buttons {  
+    display: flex;
+    justify-content: space-between; 
+    background-color: #333;  /*la banière des boutons*/
+    padding: 10px 0;
+}
+
+.nav-buttons a {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #808080; /*couleur des boutons du footer*/
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #999999; 
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #292929;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a.active {
+    color: orange;
+}
+
+side.side {
+    float: right;
+    position: relative;
+    width: 300px;
+    margin-left: 20px;
+}
+
+side.side img {
+    width: 300px;
+    display: block;
+}
+
+side.side .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(137, 137, 137, 0.3); /* Fond semi-transparent du texte sur l'image là*/
+    color: black;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px; /* Taille du texte */
+    padding: 6px;
+}
+
+.image-lien {
+    width: 300px;
+}
+
+        /* Vidéo avec image et texte à droite */
+        .video-container {
+            margin: 20px 0;
+            display: flex; /* Utilisation de Flexbox pour aligner l'image et le texte */
+            background-color: #1e004e; /* Fond noir pour le rectangle */
+            border-radius: 8px; /* Coins arrondis du rectangle */
+            padding: 10px; /* Espacement interne */
+            max-width: 100%; /* La vidéo prend toute la largeur disponible */
+            color: white;
+        }
+
+        .video-container img {
+            width: 300px; /* Taille de l'image de la vidéo */
+            height: auto;
+            border-radius: 8px; /* Arrondi les coins de l'image */
+            margin-right: 20px; /* Espacement entre l'image et le texte */
+        }
+
+        .video-container .text-container {
+            flex-grow: 1; /* Le texte prend tout l'espace restant */
+            display: flex;
+            flex-direction: column; /* Empile le texte en colonne */
+            justify-content: center; /* Centre le texte verticalement */
+        }
+
+        .texte_video h2 {
+            font-size: 24px;
+            margin-bottom: 10px; /* Espacement sous le titre */
+        }
+
+        .texte_video p {
+            font-size: 16px;
+        }
+
+        .espace_images {
+            display: flex;                
+            justify-content: space-between; 
+            align-items: center;           
+            gap: 70px;  }
+
+.image-container {
+    display: flex;                    
+    justify-content: space-between;    
+    gap: 20px;                         
+    flex-wrap: wrap;                   /* Permet aux éléments de se réorganiser si nécessaire */
+}
+
+.centrer-limage {
+    text-align: center;                
+    width: 30%;                         /* Taille fixe pour chaque item (image + texte) */
+}
+
+.image-item img {                    
+    height: auto;                 
+    border-radius: 8px;                /* Coins arrondis pour l'image */
+}
+
+.texte_sous_image {
+    background-color: #292929;         /* Fond gris foncé pour le carré de texte */
+    color: white;                      /* Texte en blanc */
+    padding: 10px;                     /* Espacement interne du texte */
+    border-radius: 8px;                /* Coins arrondis pour le carré de texte */
+    margin-top: 10px;                  /* Espacement entre l'image et le texte */
+}
+
+.text_sous image p {
+    margin: 0;                         /* Supprimer les marges par défaut des paragraphes */
+}
+
+.style_fleches {
+    display: flex;
+    justify-content: space-between; /* Espace entre les boutons */
+    width: 200px; /* Largeur totale des deux boutons */
+    margin: 20px auto; /* Centrer les boutons horizontalement */
+}
+
+.arrow-button {
+    font-size: 30px; /* Taille de la flèche */
+    text-decoration: none; /* Retirer le soulignement des liens */
+    color: #fff; /* Couleur de la flèche (blanche) */
+    background-color: #292929; /* Fond sombre */
+    padding: 10px 15px; /* Espacement autour de la flèche */
+    border-radius: 50%; /* Coins arrondis pour donner une forme de cercle */
+    transition: background-color 0.3s; /* Animation douce au survol */
+}
+
+.arrow-button:hover {
+    background-color: #555; /* Changer la couleur de fond au survol */
+}
+
+.arrow-button:active {
+    background-color: #111; /* Changer la couleur de fond quand le bouton est cliqué */
+}
