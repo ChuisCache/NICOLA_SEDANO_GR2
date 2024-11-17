@@ -15,7 +15,7 @@ header {
 }
 
 .logo img {
-    width: 150px; /* Modifier la taille selon vos besoins */
+    width: 150px;
 }
 
 .nav-buttons {  
@@ -87,29 +87,28 @@ side.side .text-overlay {
     width: 300px;
 }
 
-        /* Vidéo avec image et texte à droite */
+                                                    /* Vidéo avec image et texte à droite */
         .video-container {
             margin: 20px 0;
-            display: flex; /* Utilisation de Flexbox pour aligner l'image et le texte */
-            background-color: #1e004e; /* Fond noir pour le rectangle */
+            display: flex; /* aligne le tout */
+            background-color: #1e004e; 
             border-radius: 8px; /* Coins arrondis du rectangle */
-            padding: 10px; /* Espacement interne */
-            max-width: 100%; /* La vidéo prend toute la largeur disponible */
+            padding: 10px; 
+            max-width: 100%; 
             color: white;
         }
 
         .video-container img {
-            width: 300px; /* Taille de l'image de la vidéo */
+            width: 300px; 
             height: auto;
             border-radius: 8px; /* Arrondi les coins de l'image */
-            margin-right: 20px; /* Espacement entre l'image et le texte */
-        }
+            margin-right: 20px; 
 
         .video-container .text-container {
-            flex-grow: 1; /* Le texte prend tout l'espace restant */
+            flex-grow: 1;
             display: flex;
-            flex-direction: column; /* Empile le texte en colonne */
-            justify-content: center; /* Centre le texte verticalement */
+            flex-direction: column; 
+            justify-content: center; 
         }
 
         .texte_video h2 {
@@ -131,12 +130,12 @@ side.side .text-overlay {
     display: flex;                    
     justify-content: space-between;    
     gap: 20px;                         
-    flex-wrap: wrap;                   /* Permet aux éléments de se réorganiser si nécessaire */
+    flex-wrap: wrap;                   
 }
 
 .centrer-limage {
     text-align: center;                
-    width: 30%;                         /* Taille fixe pour chaque item (image + texte) */
+    width: 30%;                        
 }
 
 .image-item img {                    
@@ -145,15 +144,15 @@ side.side .text-overlay {
 }
 
 .texte_sous_image {
-    background-color: #292929;         /* Fond gris foncé pour le carré de texte */
-    color: white;                      /* Texte en blanc */
-    padding: 10px;                     /* Espacement interne du texte */
+    background-color: #292929;         
+    color: white;                      
+    padding: 10px;                     
     border-radius: 8px;                /* Coins arrondis pour le carré de texte */
-    margin-top: 10px;                  /* Espacement entre l'image et le texte */
+    margin-top: 10px;                  
 }
 
 .text_sous image p {
-    margin: 0;                         /* Supprimer les marges par défaut des paragraphes */
+    margin: 0;                         /* Supprimer les marges par défaut des paragraphes en p*/
 }
 
 .style_fleches {
@@ -166,11 +165,11 @@ side.side .text-overlay {
 .arrow-button {
     font-size: 30px; /* Taille de la flèche */
     text-decoration: none; /* Retirer le soulignement des liens */
-    color: #fff; /* Couleur de la flèche (blanche) */
-    background-color: #292929; /* Fond sombre */
-    padding: 10px 15px; /* Espacement autour de la flèche */
+    color: #fff; 
+    background-color: #292929; 
+    padding: 10px 15px;
     border-radius: 50%; /* Coins arrondis pour donner une forme de cercle */
-    transition: background-color 0.3s; /* Animation douce au survol */
+    transition: background-color 0.3s; /* p'tite anime au survol */
 }
 
 .arrow-button:hover {
